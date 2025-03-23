@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <style>
+        .item{
+           display: flex;
+           
+        }
+        .item-container{
+            margin-top: 10px;
+            background-color: rgb(190, 213, 237);
+            height: 35px;
+            width: auto;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        .login-from-container{
+            display: flex;
+            justify-content: center;
+        }
+        .login-from{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           border: 2px solid chocolate;
+            width: 50%;
+            margin-top: 20px;
+            background-color: rgb(206, 214, 221);
+        }
+        .login-from input{
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="item-container">
+        <div class="item">
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+
+    <!-- From part -->
+
+<div class="login-from-container">
+    <form class="login-from">
+        <h3>Please Login</h3>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Enter your Password" required>
+        <input type="submit" value="Login">
+       </form>
+</div>
+</body>
+</html>
